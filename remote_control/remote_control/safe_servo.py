@@ -14,6 +14,9 @@ class SafeServo(object):
     self.current_angle = initial_angle
     self.move()
 
+  def start_angle(self):
+    self.set_angle(self.initial_angle)
+
   def set_angle(self, angle):
     self.current_angle = angle
     self.move()
