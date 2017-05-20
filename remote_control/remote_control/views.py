@@ -74,6 +74,8 @@ def run(request):
     
     # ================ Camera =================
     elif action == 'camready':
+      pan.start_angle()
+      tilt.start_angle()
       #cam.ready()
       print 'cam ready'
     elif action == "camleft":
