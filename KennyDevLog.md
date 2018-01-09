@@ -13,8 +13,8 @@ If the Pi using DHCP, then the IP address may change from time to time. Here are
 1. Using static IP address in Pi.
 1. On the wireless router, bind the IP address to MAC address of Pi
 1. When Pi boot up, send email to notify you. Refer to:
-  1. [Send email on PI](https://www.sbprojects.com/projects/raspberrypi/exim4.php)
-  1. In /etc/rc.local, add commands to get current IP and call mail client to send email.
+    1. [Send email on PI](https://www.sbprojects.com/projects/raspberrypi/exim4.php)
+    1. In /etc/rc.local, add commands to get current IP and call mail client to send email.
 * ToDo: Try to discover the PI with mobile app.
 
 #### Auto start the remote control server
@@ -29,5 +29,5 @@ On the web UI, cannot use the buttons to control the car. Seems that the JS func
 
 
 ### Contact me:
-Email: he.scu2013@gmail.com
-http://kennyhe.com/
+* Email: he.scu2013@gmail.com
+* http://kennyhe.com/
