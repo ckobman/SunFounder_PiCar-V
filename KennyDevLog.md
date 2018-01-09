@@ -3,10 +3,11 @@ With SunFounder Smart Video Car Kit V2.0
 
 Quick Links:
 
- * [About this kit](#about_this_kit)
- * [License](#license)
+ * [1/8/2018](#1_8_2018)
  * [Contact me](#contact_me)
 
+----------------------------------------------
+<a id="1_8_2018"></a>
 ### 1/8/2018: Auto start server, auto send the IP address by email
 #### IP address
 If the Pi using DHCP, then the IP address may change from time to time. Here are some solutions:
@@ -28,6 +29,8 @@ On the web UI, cannot use the buttons to control the car. Seems that the JS func
 * ToDo: Get an ANDROID app for remote control.
 
 
+----------------------------------------------
+<a id="contact_me"></a>
 ### Contact me:
 * Email: he.scu2013@gmail.com
 * http://kennyhe.com/
