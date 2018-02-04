@@ -145,6 +145,9 @@
           case '%':
             run_action('camleft')
             break;
+          case ' ':
+            run_action('camready')
+            break;
           case '1':
             set_speed('40')
             break;
@@ -189,18 +192,6 @@
             break;
           case 'D':
             run_action('fwstraight')
-            break;
-          case '&':
-            run_action('camready')
-            break;
-          case '(':
-            run_action('camready')
-            break;
-          case "'":
-            run_action('camready')
-            break;
-          case '%':
-            run_action('camready')
             break;
         }
       }
